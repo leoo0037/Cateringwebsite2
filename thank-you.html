@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Message Sent! | C's Ice Cream & Deli</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .thankyou-wrap {
+      min-height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 4rem 1.5rem;
+    }
+    .thankyou-card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: var(--shadow-lg);
+      padding: 3.5rem 3rem;
+      max-width: 520px;
+      width: 100%;
+      text-align: center;
+    }
+    .thankyou-emoji { font-size: 3.5rem; margin-bottom: 1.2rem; }
+    .thankyou-card h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: var(--brown);
+      margin-bottom: 0.8rem;
+    }
+    .thankyou-card p {
+      color: var(--text-muted);
+      font-size: 1rem;
+      line-height: 1.65;
+      margin-bottom: 2rem;
+    }
+    .thankyou-actions {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="index.html" class="logo"><span class="logo-c">C's</span><span class="logo-sub">Ice Cream &amp; Deli</span></a>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+      <nav class="main-nav" id="main-nav">
+        <a href="index.html">Home</a>
+        <a href="menu-sandwiches.html">Sandwiches</a>
+        <a href="menu-breakfast.html">Breakfast</a>
+        <a href="menu-icecream.html">Ice Cream</a>
+        <a href="catering.html">Catering</a>
+        <a href="contact.html">Contact</a>
+        <a href="catering.html" class="nav-cta">Book Catering</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="thankyou-wrap">
+    <div class="thankyou-card">
+      <div class="thankyou-emoji">🥪✅</div>
+      <h1>Message Received!</h1>
+      <p>
+        Thanks for reaching out to C's Ice Cream &amp; Deli. We'll get back to you as soon as we can during business hours.<br /><br />
+        For urgent catering questions or same-day needs, give us a call directly at
+        <a href="tel:8585780162" style="color:var(--green);font-weight:600;">(858) 578-0162</a>.
+      </p>
+      <div class="thankyou-actions">
+        <a href="index.html" class="btn btn-primary">Back to Home</a>
+        <a href="catering.html" class="btn btn-outline">Catering Info</a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo"><span class="logo-c">C's</span> Ice Cream &amp; Deli</div>
+        <p>A neighborhood deli in Mira Mesa, San Diego.</p>
+        <a href="tel:8585780162" class="footer-phone">(858) 578-0162</a>
+      </div>
+      <div class="footer-links">
+        <h5>Menu</h5>
+        <a href="menu-sandwiches.html">Sandwiches</a>
+        <a href="menu-breakfast.html">Breakfast</a>
+        <a href="menu-icecream.html">Ice Cream</a>
+        <a href="catering.html">Catering</a>
+      </div>
+      <div class="footer-links">
+        <h5>Info</h5>
+        <a href="contact.html">Contact</a>
+        <a href="tel:8585780162">Call (858) 578-0162</a>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>© 2025 C's Ice Cream &amp; Deli · 9969 Mira Mesa Blvd #4, San Diego, CA 92131</p></div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

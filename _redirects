@@ -1,0 +1,7 @@
+# Clean URL redirects — lets /catering work instead of /catering.html
+/catering        /catering.html        200
+/sandwiches      /menu-sandwiches.html  200
+/breakfast       /menu-breakfast.html   200
+/ice-cream       /menu-icecream.html    200
+/contact         /contact.html          200
+/menu            /menu-sandwiches.html  301
